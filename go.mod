@@ -1,4 +1,4 @@
-module github.com/devcastops/gcp_server_control
+module github.com/Devcastops/gcp_server_control
 
 go 1.20
 

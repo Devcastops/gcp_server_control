@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/devcastops/gcp_server_control/modules/instances"
+	"github.com/Devcastops/gcp_server_control/modules/instances"
 	"github.com/google/logger"
 )
 

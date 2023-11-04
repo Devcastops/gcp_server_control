@@ -1,4 +1,4 @@
-module github.com/devcastops/gcp_server_control/modules/instances
+module github.com/Devcastops/gcp_server_control/modules/instances
 
 go 1.20
 
