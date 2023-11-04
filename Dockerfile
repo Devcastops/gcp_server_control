@@ -25,7 +25,7 @@ WORKDIR /app
 # Expecting to copy go.mod and if present go.sum.
 COPY go.* ./
 RUN go mod download
-
+RUN go get github.com/Devcastops/gcp_server_control/modules/instances
 # Copy local code to the container image.
 COPY . ./
 
