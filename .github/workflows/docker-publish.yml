@@ -2,8 +2,6 @@ name: Build and Push to GCR
 
 on:
   push:
-    tags:
-      - v*
 
 # Environment variables available to all jobs and steps in this workflow
 env:
