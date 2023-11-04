@@ -31,6 +31,11 @@ func main() {
 
 func handler(w http.ResponseWriter, r *http.Request) {
 	logger := logger.Init("hander log", true, true, w)
+	if err := r.ParseForm(); err != nil {
+		logger.Error(err)
+	}
+	logger.Info(r.URL)
+	logger.Info(r.Form)
 	defer logger.Close()
 	logger.Info(ListAllInstances(logger))
 }
