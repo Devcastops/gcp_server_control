@@ -4,7 +4,6 @@ go 1.20
 
 require (
 	cloud.google.com/go/compute v1.23.3
-	github.com/Devcastops/gcp_server_control/modules/instances v0.0.0-20231104093838-259f3592e54c
 	github.com/google/logger v1.1.1
 	google.golang.org/api v0.149.0
 	google.golang.org/protobuf v1.31.0
