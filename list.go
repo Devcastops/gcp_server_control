@@ -23,7 +23,7 @@ func ListAllInstances(logger *logger.Logger) error {
 
 	// Use the `MaxResults` parameter to limit the number of results that the API returns per response page.
 	req := &computepb.AggregatedListInstancesRequest{
-		Project:    "Devcastops",
+		Project:    "devcastops",
 		MaxResults: proto.Uint32(3),
 	}
 
